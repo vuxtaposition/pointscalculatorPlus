@@ -1,0 +1,215 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ordin"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    android:contentDescription="@string/totalPoints"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="ie.careersportal.caocalc.MainActivity" >
+
+    <Button
+        android:id="@+id/linkView"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/ordinaryView"
+        android:layout_alignBottom="@+id/ordinaryView"
+        android:layout_toRightOf="@+id/ordinaryView"
+        android:background="@drawable/horedback"
+        android:minWidth="64dip"
+        android:text="@string/linkBtn"
+        android:textColor="#FFFFFF"
+        android:textSize="12sp" />
+
+    <Button
+        android:id="@+id/higherView"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView1"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/hoback"
+        android:minWidth="64dip"
+        android:text="@string/back"
+        android:textColor="#FFFFFF"
+        android:textSize="12sp" />
+
+    <ImageView
+        android:id="@+id/whiteBackground"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/higherView"
+        android:layout_alignRight="@+id/total_H"
+        android:layout_below="@+id/linkView"
+        android:layout_marginTop="12dp"
+        android:contentDescription="Background white"
+        android:src="@drawable/backwhite" />
+
+    <Button
+        android:id="@+id/menu"
+        android:layout_width="50dp"
+        android:layout_height="30dp"
+        android:layout_alignLeft="@+id/testing"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="17dp"
+        android:background="@drawable/btnmenu_m" />
+
+    <TextView
+        android:id="@+id/Bonus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/whiteBackground"
+        android:layout_alignLeft="@+id/whiteBackground"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/total_H"
+        android:gravity="center"
+        android:text="@string/bonus"
+        android:textSize="10sp"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/Merit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/Pass"
+        android:layout_below="@+id/testing"
+        android:layout_marginTop="58dp"
+        android:background="@drawable/meritback"
+        android:text="@string/Merit" 
+        android:textColor="#FFFFFF"/>
+
+    <Button
+        android:id="@+id/Pass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/textViewHigher"
+        android:layout_below="@+id/Merit"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/meritback"
+        android:text="@string/Pass" 
+        android:textColor="#FFFFFF"/>
+
+    <TextView
+        android:id="@+id/topSix_H"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/whiteBackground"
+        android:layout_toRightOf="@+id/distinction"
+        android:text="@string/topSix"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#FF0000"
+        android:textSize="12sp"
+        android:textStyle="italic"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/ordinaryView"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/higherView"
+        android:layout_alignBottom="@+id/higherView"
+        android:layout_alignLeft="@+id/higherView"
+        android:background="@drawable/hoback_m"
+        android:minWidth="64dip"
+        android:text="@string/back"
+        android:textColor="#FFFFFF"
+        android:textSize="12sp"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/distinction"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/Merit"
+        android:layout_below="@+id/testing"
+        android:background="@drawable/meritback"
+        android:text="@string/Distinction"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/testing"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/whiteBackground"
+        android:layout_below="@+id/whiteBackground"
+        android:textSize="10dp" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/logo" />
+
+    <Button
+        android:id="@+id/reset"
+        android:layout_width="50dp"
+        android:layout_height="30dp"
+        android:layout_alignBaseline="@+id/menu"
+        android:layout_alignBottom="@+id/menu"
+        android:layout_alignRight="@+id/whiteBackground"
+        android:background="@drawable/resetnew_m"
+        android:text="@string/reset"
+        android:textColor="#FFFFFF"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/textViewHigher"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/menu"
+        android:layout_alignBottom="@+id/menu"
+        android:layout_alignRight="@+id/linkView"
+        android:gravity="center"
+        android:text="@string/linkBtn"
+        android:textColor="#3496F3"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/total_H"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignTop="@+id/whiteBackground"
+        android:gravity="right"
+        android:text="@string/total_H"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#3496F3"
+        android:textSize="50sp"
+        android:typeface="serif" />
+
+    <TextView
+        android:id="@+id/totalPoints"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/totalPointsValue"
+        android:layout_alignLeft="@+id/tv_totalSubjects"
+        android:text="@string/totalPoints"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/tv_totalSubjects"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/Bonus"
+        android:layout_toLeftOf="@+id/linkView"
+        android:text="@string/totalSubjects"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#999999" />
+
+    <TextView
+        android:id="@+id/totalPointsValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/total_H"
+        android:layout_marginLeft="22dp"
+        android:layout_toRightOf="@+id/totalPoints"
+        android:text="0"
+        android:textColor="#999999" />
+
+</RelativeLayout>

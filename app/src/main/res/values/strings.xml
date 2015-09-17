@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <string name="app_name">Points Calculator Plus+</string>
+    <string name="hello_world">CAO</string>
+    <string name="PointsCalc">Points Calculator</string>
+    <string name="didyoudo">Did you do Higher Level Maths?</string>
+    <string name="action_settings">Settings</string>
+    <string name="yes">Yes</string>
+    <string name="HA1">A1</string>
+    <string name="HA2">A2</string>
+    <string name="HB1">B1</string>
+    <string name="HB2">B2</string>
+    <string name="HB3">B3</string>
+    <string name="HC1">C1</string>
+    <string name="HC2">C2</string>
+    <string name="HC3">C3</string>
+    <string name="HD1">D1</string>
+    <string name="HD2">D2</string>
+    <string name="HD3">D3</string>
+    <string name="ENFG">E.N.FG</string>
+     <string name="Distinction">Distinction</string>
+     <string name="Merit">Merit</string>
+     <string name="Pass">Pass</string>
+      <string name="highBtn">Higher Level</string>
+      <string name="ordBtn">Ordinary Level</string>
+      <string name="linkBtn">Links Modules</string>
+    <string name="topSix">Top Six</string>
+    <string name="enter">Enter</string>
+    <string name="no">No</string>   
+    <string name="reset">Reset</string>  
+     <string name="bonus">25 bonus points for Higher Maths included</string> 
+     <string name="CAO">View all CAO Courses</string> 
+    <string name="totalPoints">Total Points</string> 
+    <string name="totalSubjects">Total Subjects</string>   
+    <string name="second">Welcome to Second</string>
+    <string name="remainingResults">Did you do a Links Module?</string>
+    <string name="higherMaths">Enter your Maths grade</string>
+    <string name="higherMaths2">first, then all other grades</string>
+    <string name="total_H">260</string>
+    <string name="hereis">bla!</string>
+    <string name="back">Back</string>
+    <string name="CourseSearch">Course Search</string>
+    <string name="CareersPortal">CareersPortal.ie</string>
+    <string name="CollegesDirect">Colleges Direct</string>
+     <string name="menuTitle3">Menu</string>
+    <string name="messageResults">SMS Results</string>
+    <string name="Twitter">Twitter</string>
+    <string name="FaceBook">Facebook</string>
+    <string name="About">About</string>
+    <string name="Help">Help</string>
+     <string name="AboutPage">About Us</string>
+     <string name="enterLinks">Please enter your Links / LCVP results</string>
+      <string name="aboutTop">CareersPortal.ie is Ireland’s National Career Guidance resource, providing the most up-to-date and relevant guidance materials to those needing or providing career guidance.
+  
+    </string>
+     <string name="aboutBottom">
+   The site is supported by both public and private organisations. It provides information directly from information providers, employers and colleges on careers and courses, across all sectors of the economy. CareersPortal.ie has grown hugely, in content and in user base since its launch in 2008, providing up-to-date, relevant guidance materials to a range of user groups:
+    </string>
+      <string name="aboutBullet1">
+  •  2nd Level School Students
+</string>
+<string name="aboutBullet2">
+ 
+•  Early School Leavers
+</string>
+<string name="aboutBullet3">
+•  College Students and Graduates
+</string>
+<string name="aboutBullet4">
+•  Adult Learners and Jobseekers
+</string>
+
+<string name="aboutBullet5">
+•  Parents and Guardians</string>
+<string name="help2">How Points are Calculated</string>
+    <string name="H2" />
+    <string name="Plus">2017 Plus</string>
+
+
+</resources>
